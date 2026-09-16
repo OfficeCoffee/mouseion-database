@@ -14,4 +14,4 @@ Relationship: The association between entities. Can be 1 to 1, 1 to many, 0 to 1
 
 Conceptual Model Description:
 
-	Model shows three entities User, Dictionary/Dashboard, and Word Entry. The user entity only has the attributes ID and name to make the user login process simple. A user can only have one dictionary but there can be many users. Dictionary/Dashboard has the following attributes: ID, view all words, add word, search, and word of the day. A dictionary can have as little as zero word entries to many word entries. Word Entry has the following attributes: ID, title, description, and context.
+Model shows three entities User, Dictionary/Dashboard, and Word Entry. The user entity only has the attributes ID and name to make the user login process simple. A user can only have one dictionary but there can be many users. Dictionary/Dashboard has the following attributes: ID, view all words, add word, search, and word of the day. A dictionary can have as little as zero word entries to many word entries. Word Entry has the following attributes: ID, title, description, and context.
