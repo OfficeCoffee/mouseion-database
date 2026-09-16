@@ -10,7 +10,7 @@ Attribute: Main characteristics of an entity.
 Relationship: The association between entities. Can be 1 to 1, 1 to many, 0 to 1, etc.
 
 
-![Shearer-ConceptualModelImage](ShearerConceptualModel.heic)
+![Shearer-ConceptualModelImage](ShearerConceptualModel.jpg)
 
 Conceptual Model Description:
 
