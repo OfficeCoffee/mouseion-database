@@ -15,18 +15,18 @@
 **Dictionaries** is the entities that store all of the dictionaries which has a one to many relationship as this table can have more than one dictionary in it. 
 
 A **Dictionary** has:
-- An **id** which is **one to one** as it is the primary key,
-- A **title** which is **many to one** as a dictionary can not have multiple names nor can a title have multiple dictionaries,
+- An **id** which is the primary key,
+- A **title**,
 - A **list of words** which is **many to many** as a dictionary can have multiple words and words can be in multiple dictionaries. 
 
 The **Words** have: 
-- An **id** which is **one to one** as it is the primary key,
-- A **definition** which is **one to one** as a word can not have multiple definitions nor can a definition be in multiple words,
-- An **origin** which is **one to one** as a word can not have multiple origins nor can a origin be in multiple words,
-- A **pronunciation** which is **one to one** as a word can not have multiple pronunciations nor can a pronunciation be in multiple words,
+- An **id** which is the primary key,
+- A **definition**,
+- An **origin**,
+- A **pronunciation**,
 - A **tag** which is **many to many** as a word can have multiple tags and a tag can be in multiple words.
 
 The **Tags** have:
-- an **id** which is **one to one** as it is the primary key, 
-- a **type** which is **one to one** as a tag can not have multiple types nor can a type be in multiple tags, 
-- a **color** **many to many** as a tag can have multiple colors and colors can be in multiple tags.
+- an **id** which is the primary key, 
+- a **type**, 
+- a **color** which is **many to many** as a tag can have multiple colors and colors can be in multiple tags.
