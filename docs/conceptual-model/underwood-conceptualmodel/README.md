@@ -12,7 +12,7 @@
 
 **Diagram key**: Everything highlighted in blue are considered stretch goals. Everything in gray are requirements for the MVP. Boxes are entities and ovels are attributes
 
-**Dictionaries** is the entities that store all of the dictionaries which has a one to many relationship as this table can have more than one dictionary in it. 
+***Attributes***:
 
 A **Dictionary** has:
 - An **id** which is the primary key,
@@ -30,3 +30,13 @@ The **Tags** have:
 - an **id** which is the primary key, 
 - a **type**, 
 - a **color**.
+
+***Relations***:
+
+Dictionaries -> Dictionary -> Words -> Tags
+
+**Dictionaries**: The entity that stores all of the entities dictionaries, which has a **one to many** relationship as dictionary can have more than one dictionaries in it. 
+
+**Dictionary**: The entity that stores all of the entities Words, which has a **many to many** relationship as a dictionary can have multiple words and words can be in multiple dictionaries. 
+
+**Words**: The entity that stores all of the entities tag which is **many to many** as a word can have multiple tags and a tag can be in multiple words.
