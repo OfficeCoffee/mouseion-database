@@ -31,7 +31,7 @@ The **Tags** have:
 
 ***Relations***:
 
-Dictionaries -> Dictionary -> Words -> Tags
+Dictionaries -> (1-M) Dictionary ->(M-M) Words ->(m-M) Tags
 
 **Dictionaries**: The entity that stores all of the entities dictionaries, which has a **one to many** relationship as dictionary can have more than one dictionaries in it. 
 
