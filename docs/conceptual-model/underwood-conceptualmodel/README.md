@@ -17,14 +17,12 @@
 A **Dictionary** has:
 - An **id** which is the primary key,
 - A **title**,
-- The entity **Words** which is **many to many** as a dictionary can have multiple words and words can be in multiple dictionaries. 
 
 The **Words** have: 
 - An **id** which is the primary key,
 - A **definition**,
 - An **origin**,
 - A **pronunciation**,
-- The entity **tag** which is **many to many** as a word can have multiple tags and a tag can be in multiple words.
 
 The **Tags** have:
 - an **id** which is the primary key, 
