@@ -8,9 +8,11 @@
 
 **Relationship**: The connection between entities
 
-***Description of Conceptual Model***
+
+***Description of Conceptual Model***:
 
 **Diagram key**: Everything highlighted in blue are considered stretch goals. Everything in gray are requirements for the MVP. Boxes are entities and ovels are attributes
+
 
 ***Attributes***:
 
@@ -28,6 +30,7 @@ The **Tags** have:
 - an **id** which is the primary key, 
 - a **type**, 
 - a **color**.
+
 
 ***Relations***:
 
