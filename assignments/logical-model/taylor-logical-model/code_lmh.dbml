@@ -1,0 +1,102 @@
+table words {
+  word_id int [pk]
+  word varchar
+  origin varchar
+  definition varchar
+  created_at timestamp
+}
+
+table decks {
+  deck_id int [pk]
+  deck_name varchar
+  color_id int [not null] //FK
+  created_at timestamp
+}
+
+table tags {
+  tag_id int [pk]
+  tag_name varchar
+  color_id int [not null] //FK
+  created_at timestamp
+}
+
+table images {
+  image_id int [pk]
+  file_path varchar
+  file_type varchar
+}
+
+table audio {
+  audio_id int [pk]
+  file_path varchar
+  file_type varchar
+}
+
+table examples {
+  example_id int [pk]
+  word_id int [not null] //FK
+  example varchar
+}
+
+table colors {
+  color_id int [pk]
+  color_name varchar
+  hex_code varchar
+}
+
+// Junction Tables
+
+table deck_word {
+  deck_id int [not null]
+  word_id int [not null]
+  
+  indexes {
+    (deck_id, word_id) [pk]
+  }
+}
+
+table tag_word {
+  tag_id int [not null]
+  word_id int [not null]
+
+  indexes {
+    (tag_id, word_id) [pk]
+  }
+}
+
+table image_word {
+  image_id int [not null]
+  word_id int [not null]
+
+  indexes {
+    (image_id, word_id) [pk]
+  }
+}
+
+table audio_word {
+  audio_id int [not null]
+  word_id int [not null]
+
+  indexes {
+    (audio_id, word_id) [pk]
+  }
+}
+
+// Relationships
+
+Ref: decks.color_id > colors.color_id
+Ref: tags.color_id > colors.color_id
+
+Ref: examples.word_id > words.word_id
+
+Ref: deck_word.deck_id > decks.deck_id
+Ref: deck_word.word_id > words.word_id
+
+Ref: tag_word.tag_id > tags.tag_id
+Ref: tag_word.word_id > words.word_id
+
+Ref: image_word.image_id > images.image_id
+Ref: image_word.word_id > words.word_id
+
+Ref: audio_word.audio_id > audio.audio_id
+Ref: audio_word.word_id > words.word_id
