@@ -1,6 +1,6 @@
 Purpose of a logical model: The purpose of a logical model is to determine how information will be structured in a database and the relationships between them.
 
-Primary Key: A combination of terms that allow access to specific parts of a table.
+Primary Key: A unique identifier that allows access to a  specific part of a table.
 
 Foreign key: A key that is not the primary key for a given table.
 
