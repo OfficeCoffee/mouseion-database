@@ -4,8 +4,8 @@ A key difference of the physical model is the inclusion of datatypes. A specific
 
 What are the common data types:
 
-Common data types in MariaDB include: SMALLINT, INT, TINYTEXT, TEXT, DATETIME, and TIMESTAMP
-Common data types in SQL include: CHAR(), VARCHAR(), DEC(#,#), and TINYINT
+Common data types in MariaDB include: SMALLINT, INT, TINYTEXT, TEXT, DATETIME, and TIMESTAMP.
+Common data types in SQL include: CHAR(), VARCHAR(), DEC(#,#), and TINYINT.
  
 Default values / Null values:
 
