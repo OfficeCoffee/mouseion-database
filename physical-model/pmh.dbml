@@ -1,0 +1,27 @@
+table words {
+  word_id mediumint(unsigned) [primary key]
+  word varchar(100) [not null]
+  origin text 
+  definition text [not null]
+  created_at timestamp [not null] 
+}
+
+table deck_word {
+  deck_id smallint(unsigned) [not null]
+  word_id mediumint(unsigned) [not null]
+  
+  indexes {
+    (deck_id, word_id) [pk]
+  }
+}
+
+table decks {
+  deck_id smallint(unsigned) [pk]
+  deck_name varchar(100) [not null]
+  created_at timestamp [not null]
+}
+
+// Relationships
+Ref: deck_word.deck_id > decks.deck_id
+Ref: deck_word.word_id > words.word_id
+
