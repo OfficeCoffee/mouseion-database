@@ -55,3 +55,8 @@ Words and decks have a `created_at` attribute because it allows for potential au
 [1] https://www.merriam-webster.com/help/faq-how-many-english-words
 
 [2] https://www.merriam-webster.com/wordplay/longest-words-ever
+
+## Logical Model Documents
+![alt text](../official-mvp-logical-model.png)
+
+[Logical Model]()
