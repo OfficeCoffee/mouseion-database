@@ -59,4 +59,4 @@ Words and decks have a `created_at` attribute because it allows for potential au
 ## Logical Model Documents
 ![alt text](../official-mvp-logical-model.png)
 
-[Logical Model]()
+[Logical Model](https://github.com/OfficeCoffee/mouseion-database/blob/taylor-physicalmodel/official-mvp-logical-model.png)
