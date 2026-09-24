@@ -17,7 +17,7 @@ Check values/constraints refer to when a column must be in a specific range or c
 
 Group Logical model:
 
-https://github.com/OfficeCoffee/mouseion-database/tree/group-LogicalModel/groupLogicalModelMVP
+https://github.com/OfficeCoffee/mouseion-database/blob/group-LogicalModel/docs/official-mvp-logical-model.png
 
 Physical model:
 
