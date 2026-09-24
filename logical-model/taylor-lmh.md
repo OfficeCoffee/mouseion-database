@@ -14,5 +14,8 @@ The purpose of a logical model is to serve as a blueprint that sits between the 
 
 The logical model represents a personal dictionary application. It stores words alongside their definitions and origins. Words can be organized into decks and tags. A deck can contain multiple words A word can have multiple tags, examples, images, and audio files. The addition of examples, images, audio files, and a tagging system are part of our group's stretch goals. Decks and tags can each have a designated color. There are only a set amount of colors that the application will support. Words have a many-to-many relationship with decks, tags, images, and audio which are showcased by the junction tables between the entities. Examples have a one-to-many relationship with words.
 
+# Conceptual Model
+![alt text](../docs/conceptual-model/official-conceptual-model.jpg)
 
+[Conceptual Model](https://github.com/OfficeCoffee/mouseion-database/blob/taylor-conceptual-model/docs/conceptual-model/taylor-conceptual-model.jpg)
 
