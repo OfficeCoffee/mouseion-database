@@ -57,11 +57,15 @@ CREATE TABLE words (
     created_at DATETIME NOT NULL
 );
 
+-- decks
+
 CREATE TABLE decks (
     deck_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     deck_name VARCHAR(50) NOT NULL,
     created_at DATETIME NOT NULL
 );
+
+-- junction table
 
 CREATE TABLE deck_word (
     deck_id SMALLINT UNSIGNED NOT NULL,
@@ -73,7 +77,7 @@ CREATE TABLE deck_word (
 ```
 
 Script Description:
-The following script creates three tables words, decks, and deck_word.The words table consists of several columns including word_id, word, origin, definition, and created_at. word_id was assigned the datatype mediumint to account for our target audience inserting a large amount of words into the database. origin was also given the ability to be left NULL in the event users don't have a specific point of origin for a word.
+The following script creates three tables words, decks, and deck_word. The words table consists of several columns including word_id, word, origin, definition, and created_at. word_id was assigned the datatype mediumint to account for our target audience inserting a large amount of words into the database. origin was also given the ability to be left NULL in the event users don't have a specific point of origin for a word.
 
 The decks table consists of deck_id, deck_name, and created_at. deck_id was assigned the datatype smallint under the assumption that there will be far less decks than words created by the user.
 
