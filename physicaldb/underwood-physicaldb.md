@@ -10,8 +10,10 @@
 **Different type of users**: Database Administrator, End Users, Programmers, System Analysts, etc.
 
 # **Physical Model:**
-
+![alt text](../docs/official-physical-model.png)
 # **Database:**
+![alt text](Deck-Table.png)
+# **SQL:**
 
 **Words Table**
 ```sql
