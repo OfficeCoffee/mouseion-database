@@ -13,14 +13,17 @@
 ![alt text](../docs/official-physical-model.png)
 # **Database:**
 **Words**
+
 ![alt text](Words-Table.png)
 ![alt text](Words-TableHS.png)
 
 **Deck_Word**
-![alt text](Deck_Word-Table.png)
-![alt text](Deck_Word-TableHS.png)
+
+![alt text](Deck_word-Table.png)
+![alt text](Deck_word-TableHS.png)
 
 **Deck**
+
 ![alt text](Deck-Table.png)
 ![alt text](Deck-TableHS.png)
 
