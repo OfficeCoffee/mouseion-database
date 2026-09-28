@@ -11,12 +11,14 @@
 
 **Words Table**
 ```sql
-CREATE TABLE IF NOT EXISTS words (
-    -> word_id mediumint unsigned primary key auto_increment,
-    -> word varchar(50) not null,
-    -> origin varchar(200),
-    -> definition varchar(2000) not null,
-    -> created_at datetime not null);
+CREATE TABLE IF NOT EXISTS `words` (
+	`word_id` MEDIUMINT(8) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`word` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_uca1400_ai_ci',
+	`origin` VARCHAR(200) NULL DEFAULT NULL COLLATE 'utf8mb4_uca1400_ai_ci',
+	`definition` VARCHAR(2000) NOT NULL COLLATE 'utf8mb4_uca1400_ai_ci',
+	`created_at` DATETIME NOT NULL,
+	PRIMARY KEY (`word_id`) USING BTREE
+)
 ```
 
 **Deck-Word Table**
