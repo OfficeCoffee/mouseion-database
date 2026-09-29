@@ -28,10 +28,6 @@ A physical model includes framework specifications such as the database manageme
 
 Check constraints are rules applied to a column(s) that ensure the data follows a defined condition such as a falling between a numeric range.
 
-## Group Logical Model
-
-https://github.com/OfficeCoffee/mouseion-database/tree/group-LogicalModel/groupLogicalModelMVP
-
 ## Physical Model
 
 ![alt text](taylor-physical-model.png)
