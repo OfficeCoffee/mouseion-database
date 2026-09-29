@@ -10,7 +10,7 @@ Normalization: To design a table in a way that prevents the creation of redundan
 
 Group Conceptual model:
 
-[Group Conceptual Model](https://github.com/OfficeCoffee/mouseion-database/blob/main/docs/conceptual-model/official-conceptual-model.jpg)
+[Group Conceptual Model](https://github.com/OfficeCoffee/mouseion-database/blob/main/docs/official-conceptual-model.jpg)
 
 Logical model: 
 
