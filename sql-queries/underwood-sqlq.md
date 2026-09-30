@@ -51,15 +51,32 @@ CREATE TABLE deck_word (
 
 # **SQL Queries:**
 
+*Note: In our MVP we only really allow one deck*
+
 ```sql
 SELECT * FROM words WHERE word = ?;
 ```
 **Description**: Selects all of the words from the table words that is the users input.
 
 ```sql
+SELECT * FROM words;
+```
+**Description**: Selects all of the words in the deck.
+
+```sql
+SELECT * FROM words ORDER BY created_at DESC LIMIT 10;
+```
+**Description**: Selects the 10 most recent words.
+
+```sql
 INSERT INTO words (word, origin, definition) VALUES (?, ?, ?);
 ```
 **Description**: Inserts a word the user puts in. Does not need word_id as it is automatically incremented or created_at as it is automatically generated.
+
+```sql
+UPDATE words SET word = ?, origin = ?, description = ? WHERE word_id = ?;
+```
+**Description**: Edit a given word.
 
 ```sql
 DELETE FROM deck_word WHERE word_id = ?;
