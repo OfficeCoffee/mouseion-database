@@ -10,7 +10,7 @@
 
 # **GROUP Physical Model:**
 
-link to pm
+![alt text](../docs/official-physical-model.png)
 
 # **GROUP Initial Scripts:**
 
