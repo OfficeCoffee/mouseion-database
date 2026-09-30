@@ -52,16 +52,17 @@ CREATE TABLE deck_word (
 # **SQL Queries:**
 
 ```sql
-
+SELECT * FROM words WHERE word = ?;
 ```
-description:
+**Description**: Selects all of the words from the table words that is the users input.
 
 ```sql
-
+INSERT INTO words (word, origin, definition) VALUES (?, ?, ?);
 ```
-description:
+**Description**: Inserts a word the user puts in. Does not need word_id as it is automatically incremented or created_at as it is automatically generated.
 
 ```sql
-
+DELETE FROM deck_word WHERE word_id = ?;
+DELETE FROM words WHERE word_id = ?;
 ```
-description:
+**Description**: Deletes a word at a given id. Has to first delete it from deck_word before words as it is a foreign key.
