@@ -1,6 +1,6 @@
 # What is a SQL query? 
 
-A query is a structured request written in SQL (Structured Query Language) to interact with data found in a database. Almost any instruction or command sent to a database, often through a raelational database management system, is referred to as a query or a SQL statement.
+A query is a structured request written in SQL (Structured Query Language) to interact with data found in a database. Almost any instruction or command sent to a database, often through a relational database management system, is referred to as a query or a SQL statement.
 
 # Describe the parts of a SELECT statement
 
