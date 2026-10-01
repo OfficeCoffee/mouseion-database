@@ -1,10 +1,31 @@
 # What is a SQL query? 
 
-# Describe the parts of a SELECT statement 
+A query is a structured request written in SQL (Structured Query Language) to interact with data found in a database. Almost any instruction or command sent to a database, often through a raelational database management system, is referred to as a query or a SQL statement.
+
+# Describe the parts of a SELECT statement
+
+A sql SELECT statement must contain the SELECT clause and the FROM clause. SELECT specifies which columns to retrieve from the database and return in the output result set. FROM specifies the source table where the data is being collected from. There are also optional clauses such as WHERE, JOIN, ORDER BY, ON, GROUP BY, HAVING, and LIMIT.
+
+WHERE: Filters the outputted rows based on a specified condition.
+
+JOIN: Combines data from multiple related tables based on a matching column or condition.
+- ON: Part of joining tables because it specifies the shared identifier that's being used to combine the tables.
+
+ORDER BY: Sorts the final output result in an ascending or descending order.
+
+GROUP BY: Groups rows that share the same value into summary groups.
+- HAVING: Filters groups created by GROUP BY by using aggregate conditions such as COUNT(*).
+
+LIMIT: Limits the amount of outputted rows by a given number.
 
 # Describe how to filter a query 
 
+Queries are filtered by optional clauses within SELECT statements. The most common optional clause is the WHERE clause which uses conditions or filtering operators to limit the output only to the rows that match those conditions. For example, a WHERE clause such as "WHERE price BETWEEN 10 AND 50" from a price column would only output rows that are between 10 and 50.
+
+The HAVING clause is also used for filtering, but only on aggregated groups after a GROUP BY clause has been used and if the condition relies on functions like COUNT(*) or SUM().
+
 # What are database indexes and what are the benefits of them
+A database index is a smaller helper table that stores a sorted copy of specific columns along with the original location of the rows in their corresponding tables. Since the index is sorted, the database can use various quick searching algorithms that cut the data in half with each step instead of sequentially looking for a row (full table scan). As a result, searching behaviors such as SELECT statements become a lot quicker, especially if there are a lot of rows. However, indexes do make INSERT, UPDATE, and DELETE statements slower because the database must also resort the index every time data changes. 
 
 # Group Physical Model
 ![alt text](../docs/official-physical-model.png)
