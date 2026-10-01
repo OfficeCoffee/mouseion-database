@@ -105,4 +105,4 @@ DELETE FROM deck_word WHERE word_id = ?;
 DELETE FROM words WHERE word_id = ?;
 ```
 
-Deletes a specific word entry. Our database does not support cascading deletes so the word has to be deleted from the base table and the junction table. The word has to be deleted from deck_word first otherwise our database will enforce foreign key constraints. 
+Deletes a specific word entry. Our database does not support cascading deletes so the word has to be deleted from the base table and the junction table. The word has to be deleted from deck_word first otherwise our database will enforce foreign key constraints and throw an error.
