@@ -26,6 +26,6 @@ Contains all of our SQL Queries and why they should be used.
 
 Contains all of our models we have created and their descriptions.
 
-[official_physical_model.dbml]https://github.com/OfficeCoffee/mouseion-database/blob/main/database/model_summary/official_physical_model.dbml
+[official_physical_model.dbml](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/model_summary/official_physical_model.dbml)
 
 Contains the source code for the physical model.
