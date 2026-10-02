@@ -20,4 +20,4 @@ SELECT word, origin, definition, created_at FROM words ORDER BY created_at DESC 
 ```
 **Description**: Gets the 10 most recently added words from the database with their origin and definition
 
-**Solution Explanation**: This query will be used in our dashboard. This is needed so the user can see the top ten most recent words they created.
+**Solution Explanation**: This query will be used in a table in our dashboard that is populated with the ten most recent words. This is needed so the user can see the most recent words they created.
