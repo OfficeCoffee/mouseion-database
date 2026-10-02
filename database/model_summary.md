@@ -2,7 +2,7 @@
 
 ![ConceptualModelImage](images/official-conceptual-model.jpg)
 
-**Description**: 
+**Description**:  
 
 Our conceptual model includes MVP entities and stretch goal entities. At minimum, we want an app that can have decks that can store words. Optionally, words can contain images, audio, examples, and tags.
 
