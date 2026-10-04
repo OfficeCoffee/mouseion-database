@@ -31,6 +31,10 @@ CREATE TABLE IF NOT EXISTS deck_word (
     FOREIGN KEY (word_id) REFERENCES words(word_id)
 );
 
+-- indexes
+CREATE INDEX idx_word ON words (word);
+CREATE INDEX idx_word_id ON deck_word (word_id);
+
 -- insert statements
 
 -- insert statements to words table
