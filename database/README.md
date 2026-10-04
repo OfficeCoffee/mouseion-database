@@ -12,7 +12,7 @@ This is our docker compose yaml file to set up all of our docker containers.
 Instructions of how to use the docker compose to stand up your DB and how to connect to it with DBeaver.
 
 # **Images**
-[README.md](https://github.com/OfficeCoffee/mouseion-database/tree/main/database/images)
+[Images Folder](https://github.com/OfficeCoffee/mouseion-database/tree/main/database/images)
 
 Contains all of our linked images.
 
