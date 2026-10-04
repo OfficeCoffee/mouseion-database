@@ -17,7 +17,7 @@ Instructions of how to use the docker compose to stand up your DB and how to con
 Contains all of our linked images.
 
 # **Business Questions & SQL Queries**
-[Business Questions & SQL Queries.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/Business%20Questions%20%26%20SQL%20Queries.md)
+[Business Questions & SQL Queries.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/business_questions_and_SQL_queries.md)
 
 Contains all of our SQL Queries and why they should be used.
 
