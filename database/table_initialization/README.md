@@ -17,9 +17,9 @@
 
 6. In the new database connection menu, select MariaDB as the database driver, then select next.
 
-7. Input the following into the connection settings and then press "ok":
+7. Input the following into the connection settings and then press "Finish":
 - port: 2121
 - user: user
 - password: password
 
-8. Ensure there are three tables in the directory tree named "words", "decks", and "deck_word".
+8. Ensure there is a database called "mousiondb" with three tables in the directory tree named "words", "decks", and "deck_word".
