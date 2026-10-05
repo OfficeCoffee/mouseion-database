@@ -11,11 +11,6 @@ This is our docker compose yaml file to set up all of our docker containers.
 
 Instructions of how to use the docker compose to stand up your DB and how to connect to it with DBeaver.
 
-# **Images**
-[Images Folder](https://github.com/OfficeCoffee/mouseion-database/tree/main/database/model_summary/images)
-
-Contains all of our linked images.
-
 # **Business Questions & SQL Queries**
 [Business Questions & SQL Queries.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/business_questions_and_SQL_queries.md)
 
@@ -29,3 +24,7 @@ Contains all of our models we have created and their descriptions.
 [official_physical_model.dbml](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/model_summary/official_physical_model.dbml)
 
 Contains the source code for the physical model.
+
+[Images Folder](https://github.com/OfficeCoffee/mouseion-database/tree/main/database/model_summary/images)
+
+Contains all of our linked images.
