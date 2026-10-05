@@ -1,11 +1,11 @@
 # **Table Initialization**
-[DB Initialization Script.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/table_initialization/db_initialization_script.md)
+[init.sql](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/table_initialization/init.sql)
 
 This is the script we use to initialize our tables in our database and some entries.
 
 [docker-compose.yml](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/table_initialization/docker-compose.yml)
 
-This is our docker compose yaml file to set up all of our docker containers.
+This is our docker compose yaml file to set up our docker image for our database.
 
 [README.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/table_initialization/README.md)
 
