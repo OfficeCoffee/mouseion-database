@@ -1,8 +1,12 @@
 # **Model Summary Folder**
 
-[Images Folder](https://github.com/OfficeCoffee/mouseion-database/tree/main/database/images)
+[Conceptual Model](https://github.com/OfficeCoffee/mouseion-database/blob/taylor-move-readme/database/model_summary/model_images/official-conceptual-model.jpg)
 
-Contains all the images of our different models.
+[Logical Model](https://github.com/OfficeCoffee/mouseion-database/blob/taylor-move-readme/database/model_summary/model_images/official-mvp-logical-model.png)
+
+[Physical Model](https://github.com/OfficeCoffee/mouseion-database/blob/taylor-move-readme/database/model_summary/model_images/official-physical-model.png)
+
+All of these model image links are found in our model_images directory: [model_images](https://github.com/OfficeCoffee/mouseion-database/tree/taylor-move-readme/database/model_summary/model_images)
 
 [Model Summary.md](https://github.com/OfficeCoffee/mouseion-database/blob/main/database/model_summary/model_summary.md)
 
