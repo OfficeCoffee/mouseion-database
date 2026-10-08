@@ -1,6 +1,6 @@
 # **Conceptual Model**
 
-![ConceptualModelImage](images/official-conceptual-model.jpg)
+![ConceptualModelImage](model_images/official-conceptual-model.jpg)
 
 **Description**:  
 
@@ -19,7 +19,7 @@ Our conceptual model includes MVP entities and stretch goal entities. At minimum
 
 # **Logical Model**
 
-![LogicalModelImage](images/official-mvp-logical-model.png)
+![LogicalModelImage](model_images/official-mvp-logical-model.png)
 
 **Description**: 
 
@@ -33,7 +33,7 @@ Both words and decks entities share a one-to-many relationship with words_decks.
 
 # **Physical Model**
 
-![PhysicalModelImage](images/official-physical-model.png
+![PhysicalModelImage](model_images/official-physical-model.png
 )
 
 **Description**: 
